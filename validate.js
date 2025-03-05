@@ -23,7 +23,7 @@ function validateForm(){
 	  return false;
 	}else{
 		if(!checkCandiNo()){
-		  alert("Invalid value for Candidate No!!");
+		  alert("Invalid value for Candidate No! (It must be a number between 1 and 19");
 		  document.getElementById("candi").focus();
 		  return false;
 		}else{
